@@ -38,7 +38,4 @@ package = "netlify-plugin-chromium"
   for = "/*"
   [headers.values]
   # Uncomment to enable Netlify user control. Requires premium plan.
-  # Basic-Auth = "someuser:somepassword anotheruser:anotherpassword"
-
-[functions]
-  node_bundler = "esbuild"
+ Basic-Auth = "someuser:somepassword anotheruser:anotherpassword"
